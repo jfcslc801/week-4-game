@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Crystals Collector</h1>
+
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <div class="col-sm-3">
+                        <img src="assets/images/sapphire.jpg" alt="amethyst" id="gem1">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="assets/images/diamond.jpg" alt="diamond" id="gem2">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="assets/images/emerald.jpg" alt="emerald" id="gem3">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="assets/images/ruby.jpg" alt="emerald" id="gem4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>
+            You will be given a Random Number at the start of the game.
+            <br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.
+            <br> You win the game by matching your total score to the Random Number, you lose the game if your total score goes
+            above he random number.
+            <br> The value of each crystal is hidden from you until you click on it. Each time the game starts, the values on
+            the crystals change too!
+        </p>
+    </div>
+
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-sm-4" id="numberToGuess">
+                <!-- The player will be shown a random number at the start of the game. -->
+                <h1>
+                    <p>Target:
+                        <span id="number-to-guess"></span>
+                    </p>
+                    <hr>
+                    <p>Total:
+                        <span id="counter"></span>
+                    </p>
+                </h1>
+            </div>
+            <div class="col-sm-4" id="WinsLossesCounter">
+                <!-- The player will be shown a random number at the start of the game. -->
+                <h1>
+                    <!-- //displays wins -->
+                    <p>Wins:
+                        <span id="winCount"></span>
+                    </p>
+                    <hr>
+                    <!-- //displays losses -->
+                    <p>Losses:
+                        <span id="lossCount"></span>
+                    </p>
+                </h1>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- When the player clicks on a crystal, it will add a specific amount of points to the player's total score. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

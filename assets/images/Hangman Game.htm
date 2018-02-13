@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///Users/Jaime/Desktop/HWDAY1/hangman-game/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+    <link href="./Hangman Game_files/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Hangman Game_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <script src="jquery.js"></script> -->
+
+</head>
+
+<body>
+    <div id="topbar">
+        <img src="./Hangman Game_files/uGtcKRA.png" alt="banner" id="banner">
+    </div>
+    <div id="gameContent">
+        <h1>Press any key to get started!</h1>
+        <div id="hangman">
+            <p>Current Word</p>
+            <!-- displays letters guessed in html -->
+            <p id="letter"></p>
+            <!-- replaces _ with correct guessed letter in html -->
+            <p id="answer">_ a _ _ _ _</p>
+            <p id="counter">Wrong Guesses: 6</p>
+            <!-- displays every letter pressed -->
+            <p id="guesses">Letters Already Guessed: a,a,Meta,</p>
+            <!-- displays you lose after 10 attempts -->
+            <p id="stat"></p> 
+        </div>
+    </div>
+    <script src="./Hangman Game_files/game.js"></script>
+
+
+</body></html>
